@@ -1,9 +1,9 @@
-const cacheName = "Lymeng-Flappy Bird Kh-1.4";
+const cacheName = "Lymeng-Flappy Bird Kh-1.5";
 const contentToCache = [
-    "Build/build 11.loader.js",
-    "Build/build 11.framework.js.unityweb",
-    "Build/build 11.data.unityweb",
-    "Build/build 11.wasm.unityweb",
+    "Build/build 12.loader.js",
+    "Build/build 12.framework.js.unityweb",
+    "Build/build 12.data.unityweb",
+    "Build/build 12.wasm.unityweb",
     "TemplateData/style.css"
 
 ];

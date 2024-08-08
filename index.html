@@ -57,15 +57,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build 10.loader.js";
+      var loaderUrl = buildUrl + "/build 11.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build 10.data.unityweb",
-        frameworkUrl: buildUrl + "/Build 10.framework.js.unityweb",
-        codeUrl: buildUrl + "/Build 10.wasm.unityweb",
+        dataUrl: buildUrl + "/build 11.data.unityweb",
+        frameworkUrl: buildUrl + "/build 11.framework.js.unityweb",
+        codeUrl: buildUrl + "/build 11.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Lymeng",
         productName: "Flappy Bird Kh",
-        productVersion: "1.3",
+        productVersion: "1.4",
         showBanner: unityShowBanner,
       };
 
@@ -84,7 +84,6 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Build 10.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
